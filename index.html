@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="description" content="معرض أعمال فرّاج محمود، مطور واجهات أمامية مبتدئ يبني تجارب رقمية باستخدام HTML وCSS وJavaScript.">
+  <title>Farrag Mahmoud — مطور واجهات أمامية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">انتقل إلى المحتوى</a>
+  <div class="site-shell">
+    <header class="site-header" id="top">
+      <nav class="nav container" aria-label="التنقل الرئيسي">
+        <a class="brand" href="#home" aria-label="DEV.PORTFOLIO home"><span>DEV.</span>PORTFOLIO<span class="brand-period">_</span></a>
+        <div class="nav-actions">
+          <button class="language-toggle" type="button" lang="en" aria-label="Switch language to English">EN</button>
+          <button class="menu-toggle" type="button" aria-label="فتح قائمة التنقل" aria-expanded="false" aria-controls="primary-navigation">
+            <span></span><span></span>
+          </button>
+        </div>
+        <div class="nav-links" id="primary-navigation">
+          <a class="nav-link is-active" href="#home">الرئيسية</a>
+          <a class="nav-link" href="#about">نبذة عني</a>
+          <a class="nav-link" href="#skills">المهارات</a>
+          <a class="nav-link" href="#projects">المشاريع</a>
+          <a class="nav-link nav-contact" href="#contact">تواصل معي <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="home" aria-labelledby="hero-title">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <div class="availability"><span class="availability-dot"></span> متاح لفرص العمل</div>
+            <p class="eyebrow">مطور واجهات أمامية مبتدئ <span class="eyebrow-rule"></span> 01 / 05</p>
+            <p class="hero-name">Farrag Mahmoud <span class="hero-name-cursor" aria-hidden="true"></span></p>
+            <h1 id="hero-title">أصنع تجارب رقمية<br><span class="gradient-text">بشغفٍ وكود.</span></h1>
+            <p class="hero-description">أنا فرّاج، مطور واجهات أمامية مبتدئ، شغوف ببناء تجارب ويب متجاوبة وسهلة الاستخدام ومتاحة للجميع باستخدام HTML وCSS وJavaScript.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">اكتشف أعمالي <span aria-hidden="true">↙</span></a>
+              <a class="button button-quiet" href="#contact">تواصل معي <span aria-hidden="true">↖</span></a>
+            </div>
+            <div class="hero-socials">
+              <span class="social-label">تابعني على</span>
+              <a href="https://github.com/your-username" target="_blank" rel="noreferrer" aria-label="حساب GitHub (رابط تجريبي)">GitHub <span aria-hidden="true">↗</span></a>
+              <span class="social-divider" aria-hidden="true"></span>
+              <a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noreferrer" aria-label="حساب LinkedIn (رابط تجريبي)">LinkedIn <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+
+          <div class="hero-art" aria-label="رسم توضيحي لمحرر أكواد">
+            <div class="art-halo" aria-hidden="true"></div>
+            <div class="float-label float-html"><span class="label-icon">&lt;/&gt;</span> HTML5</div>
+            <div class="float-label float-css"><span class="label-icon">✳</span> CSS3</div>
+            <div class="float-label float-js"><span class="label-icon">JS</span> JavaScript</div>
+            <div class="editor-window">
+              <div class="editor-topbar">
+                <div class="window-controls" aria-hidden="true"><i></i><i></i><i></i></div>
+                <div class="editor-tab"><span class="tab-dot"></span> index.html</div>
+                <span class="editor-menu" aria-hidden="true">•••</span>
+              </div>
+              <div class="editor-body" aria-label="Example HTML, CSS, and JavaScript code">
+                <div class="code-line"><span class="line-no">01</span><code><span class="syntax-purple">&lt;main</span> <span class="syntax-blue">class</span>=<span class="syntax-green">"good-ideas"</span><span class="syntax-purple">&gt;</span></code></div>
+                <div class="code-line"><span class="line-no">02</span><code>&nbsp;&nbsp;<span class="syntax-purple">&lt;h1&gt;</span>Make it matter.<span class="syntax-purple">&lt;/h1&gt;</span></code></div>
+                <div class="code-line"><span class="line-no">03</span><code>&nbsp;&nbsp;<span class="syntax-purple">&lt;p&gt;</span>Details make the difference.<span class="syntax-purple">&lt;/p&gt;</span></code></div>
+                <div class="code-line"><span class="line-no">04</span><code><span class="syntax-purple">&lt;/main&gt;</span></code></div>
+                <div class="code-gap"></div>
+                <div class="code-line"><span class="line-no">05</span><code><span class="syntax-purple">.good-ideas</span> <span class="syntax-muted">{</span></code></div>
+                <div class="code-line"><span class="line-no">06</span><code>&nbsp;&nbsp;<span class="syntax-blue">display</span>: <span class="syntax-orange">grid</span>;</code></div>
+                <div class="code-line"><span class="line-no">07</span><code>&nbsp;&nbsp;<span class="syntax-blue">gap</span>: <span class="syntax-orange">1rem</span>;</code></div>
+                <div class="code-line"><span class="line-no">08</span><code><span class="syntax-muted">}</span></code></div>
+                <div class="code-gap"></div>
+                <div class="code-line"><span class="line-no">09</span><code><span class="syntax-purple">const</span> <span class="syntax-blue">keepLearning</span> = <span class="syntax-orange">true</span>;</code></div>
+                <div class="code-line"><span class="line-no">10</span><code><span class="syntax-purple">while</span> (keepLearning) <span class="syntax-muted">{</span></code></div>
+                <div class="code-line"><span class="line-no">11</span><code>&nbsp;&nbsp;<span class="syntax-blue">build</span>(<span class="syntax-green">"something better"</span>);</code></div>
+                <div class="code-line"><span class="line-no">12</span><code><span class="syntax-muted">}</span><span class="cursor" aria-hidden="true"></span></code></div>
+              </div>
+              <div class="editor-status"><span><i></i> الفضول في تطور دائم</span><span>UTF-8&nbsp;&nbsp; HTML</span></div>
+            </div>
+            <figure class="hero-portrait">
+              <img src="image/farrag_mahmoud.jpg" alt="Portrait of Farrag Mahmoud">
+              <figcaption><span>مطور واجهات أمامية مبتدئ</span><strong>Farrag Mahmoud</strong></figcaption>
+            </figure>
+            <div class="art-caption"><span class="caption-line"></span> قليل من المنطق، وكثير من الاهتمام.</div>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about"><span class="scroll-line"></span> مرّر لاكتشاف المزيد</a>
+      </section>
+
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><span class="section-number">01</span> الشخص خلف الشاشة</p>
+            <h2 id="about-title">نبذة <span class="gradient-text">عني.</span></h2>
+          </div>
+          <div class="about-layout">
+            <div class="about-intro reveal">
+              <div class="about-profile">
+                <div class="profile-avatar"><img src="image/farrag_mahmoud.jpg" alt="Portrait of Farrag Mahmoud"></div>
+                <div class="about-profile-copy"><span>تعرّف على المطور</span><strong>Farrag Mahmoud</strong><small>مطور واجهات أمامية مبتدئ</small></div>
+                <span class="avatar-placeholder-tag">مطور واجهات أمامية</span>
+              </div>
+              <span class="about-mark" aria-hidden="true">“</span>
+              <p>أنا مطور أتعلم ذاتيًا وأطوّر مهاراتي في الواجهات الأمامية مشروعًا بعد مشروع. أستمتع بتحويل الأفكار إلى واجهات واضحة وعملية، والاهتمام بالتفاصيل الصغيرة التي تصنع فرقًا.</p>
+              <p>هناك دائمًا شيء جديد لنتعلمه. أواصل التجربة والتدرب وتحسين أسلوبي مع كل صفحة أبنيها.</p>
+              <a class="text-link" href="#contact">ما الفرص التي أبحث عنها <span aria-hidden="true">←</span></a>
+            </div>
+            <div class="feature-list">
+              <article class="feature-card reveal">
+                <span class="feature-index">01</span>
+                <div class="feature-icon icon-code" aria-hidden="true">&lt;/&gt;</div>
+                <div><h3>كود منظم وواضح</h3><p>أساس متين وسهل القراءة يجعل المشروع أبسط في الفهم والتطوير.</p></div>
+                <span class="feature-arrow" aria-hidden="true">↗</span>
+              </article>
+              <article class="feature-card reveal">
+                <span class="feature-index">02</span>
+                <div class="feature-icon icon-responsive" aria-hidden="true"><span></span></div>
+                <div><h3>تصميم متجاوب</h3><p>واجهات تتكيف بعناية مع مختلف أحجام الشاشات.</p></div>
+                <span class="feature-arrow" aria-hidden="true">↗</span>
+              </article>
+              <article class="feature-card reveal">
+                <span class="feature-index">03</span>
+                <div class="feature-icon icon-learn" aria-hidden="true">↗</div>
+                <div><h3>تعلّم مستمر</h3><p>فضول وممارسة وتقدم ثابت، يومًا بعد يوم.</p></div>
+                <span class="feature-arrow" aria-hidden="true">↗</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <div class="section-heading section-heading-row reveal">
+            <div>
+              <p class="eyebrow"><span class="section-number">02</span> أدوات أطور مهاراتي بها</p>
+              <h2 id="skills-title">أدوات بسيطة.<br><span class="gradient-text">إمكانيات كبيرة.</span></h2>
+            </div>
+            <p class="heading-aside">أساس متين في تقنيات الويب، أتعلم من خلال البناء والتجربة والتحسين.</p>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <div class="skill-card-top"><span class="skill-index">01 / هيكلة</span><span class="skill-plus" aria-hidden="true">↗</span></div>
+              <div class="tech-icon html-icon" aria-hidden="true"><svg viewBox="0 0 64 72" role="img"><path d="M6 4h52l-5 58-21 6-21-6L6 4Z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M18 18h29l-1 7H26l1 7h18l-2 20-11 3-11-3-1-10h7l1 5 5 1 5-1 .7-8H21l-3-21Z" fill="currentColor"/></svg></div>
+              <h3>HTML5</h3><p>كتابة دلالية وهيكلة مدروسة للصفحات، أساس تجارب مفهومة ومتاحة للجميع.</p>
+              <div class="skill-tags"><span>عناصر دلالية</span><span>إمكانية الوصول</span></div>
+            </article>
+            <article class="skill-card reveal">
+              <div class="skill-card-top"><span class="skill-index">02 / تنسيق</span><span class="skill-plus" aria-hidden="true">↗</span></div>
+              <div class="tech-icon css-icon" aria-hidden="true"><svg viewBox="0 0 64 72" role="img"><path d="M6 4h52l-5 58-21 6-21-6L6 4Z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M18 18h29l-1 7H26l1 7h18l-2 20-11 3-11-3-1-10h7l1 5 5 1 5-1 .7-8H21l-3-21Z" fill="currentColor"/></svg></div>
+              <h3>CSS3</h3><p>تنسيقات وتخطيطات متجاوبة باستخدام Flexbox وGrid لتحويل الأفكار إلى تصميم حي.</p>
+              <div class="skill-tags"><span>Flexbox وGrid</span><span>تصميم متجاوب</span></div>
+            </article>
+            <article class="skill-card reveal">
+              <div class="skill-card-top"><span class="skill-index">03 / تفاعل</span><span class="skill-plus" aria-hidden="true">↗</span></div>
+              <div class="tech-icon js-icon" aria-hidden="true"><span>JS</span></div>
+              <h3>JavaScript</h3><p>التعامل مع DOM والأحداث لبناء واجهات تفاعلية مفيدة وسهلة الاستخدام.</p>
+              <div class="skill-tags"><span>DOM</span><span>التفاعل</span></div>
+            </article>
+          </div>
+          <p class="skills-note"><span class="note-line"></span> أتعلم وأشارك، وأبني بهدف.</p>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading section-heading-row reveal">
+            <div>
+              <p class="eyebrow"><span class="section-number">03</span> مشاريع تدريبية مختارة</p>
+              <h2 id="projects-title">أبني لأتعلّم.<br><span class="gradient-text">وأستكشف لأتطور.</span></h2>
+            </div>
+            <p class="heading-aside">أفكار مشاريع تدريبية ضمن رحلتي التعليمية. هذه أمثلة توضيحية وليست أعمالًا منجزة.</p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <a class="project-preview preview-landing" href="https://example.com/your-landing-page-demo" target="_blank" rel="noreferrer" aria-label="Example project preview: Responsive Landing Page (replace placeholder URL)">
+                <span class="preview-label">مثال توضيحي · ليس مشروعًا منشورًا</span>
+                <div class="landing-mock">
+                  <div class="mock-nav"><b>northstar<span>.</span></b><span>DISCOVER &nbsp; ABOUT &nbsp; <i>GET STARTED ↗</i></span></div>
+                  <div class="mock-landing-content"><small>MAKE ROOM FOR MORE</small><strong>Find your<br><em>next horizon.</em></strong><span class="mock-button">EXPLORE THE COLLECTION&nbsp; →</span></div>
+                  <div class="mock-sun"></div><div class="mock-mountains"></div>
+                </div>
+                <span class="preview-open" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info">
+                <div class="project-title-row"><div><span class="project-number">01 — صفحة هبوط</span><h3>صفحة هبوط متجاوبة</h3></div><span class="project-arrow" aria-hidden="true">↗</span></div>
+                <p>تصور توضيحي لصفحة هبوط متجاوبة بأقسام واضحة وعبارة تحث على اتخاذ إجراء.</p>
+                <div class="project-bottom"><div class="project-tags"><span>HTML</span><span>CSS</span></div><div class="project-links"><a href="https://example.com/your-landing-page-demo" target="_blank" rel="noreferrer">معاينة ↗</a><a href="https://github.com/your-username/your-landing-page" target="_blank" rel="noreferrer">الكود المصدري ↗</a></div></div>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <a class="project-preview preview-todo" href="https://example.com/your-todo-list-demo" target="_blank" rel="noreferrer" aria-label="Example project preview: Interactive To-Do List (replace placeholder URL)">
+                <span class="preview-label">مثال توضيحي · ليس مشروعًا منشورًا</span>
+                <div class="todo-mock">
+                  <div class="todo-window-head"><span>little by little</span><span>•••</span></div>
+                  <div class="todo-greeting">A good day to<br><strong>get things done.</strong></div>
+                  <div class="todo-progress"><span>YOUR PROGRESS</span><span>2 of 4 tasks</span><i><b></b></i></div>
+                  <div class="todo-item checked"><i>✓</i><span>Plan the week</span><small>DONE</small></div>
+                  <div class="todo-item checked"><i>✓</i><span>Make a fresh start</span><small>DONE</small></div>
+                  <div class="todo-item"><i></i><span>Build something useful</span><small>UP NEXT</small></div>
+                  <div class="todo-item"><i></i><span>Take a little break</span><small>LATER</small></div>
+                  <div class="todo-input">＋&nbsp; Add a new task...</div>
+                </div>
+                <span class="preview-open" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info">
+                <div class="project-title-row"><div><span class="project-number">02 — تطبيق تفاعلي</span><h3>قائمة مهام تفاعلية</h3></div><span class="project-arrow" aria-hidden="true">↗</span></div>
+                <p>فكرة توضيحية لقائمة مهام تستكشف تحديث DOM والتعامل مع الأحداث والتفاعلات البسيطة.</p>
+                <div class="project-bottom"><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://example.com/your-todo-list-demo" target="_blank" rel="noreferrer">معاينة ↗</a><a href="https://github.com/your-username/your-todo-list" target="_blank" rel="noreferrer">الكود المصدري ↗</a></div></div>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <a class="project-preview preview-portfolio" href="https://example.com/your-portfolio-demo" target="_blank" rel="noreferrer" aria-label="Example project preview: Personal Portfolio Website (replace placeholder URL)">
+                <span class="preview-label">مثال توضيحي · ليس مشروعًا منشورًا</span>
+                <div class="portfolio-mock">
+                  <div class="portfolio-mini-nav"><b>YOUR<span>NAME</span></b><span>ABOUT &nbsp; WORK &nbsp; CONTACT</span></div>
+                  <div class="portfolio-mini-copy"><small>HELLO, WORLD. I'M A DEVELOPER.</small><strong>Turning ideas<br>into <em>interfaces.</em></strong><p>Thoughtful design. Clean code.<br>Always learning.</p><i>EXPLORE MY WORK&nbsp; ↘</i></div>
+                  <div class="portfolio-mini-visual"><div class="mini-orbit"></div><div class="mini-card"><span>01</span><b>DESIGN<br>MEETS<br>FUNCTION.</b><i>✳</i></div></div>
+                  <div class="portfolio-mini-footer">BASED IN YOUR CITY <span>SCROLL TO EXPLORE ↓</span></div>
+                </div>
+                <span class="preview-open" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info">
+                <div class="project-title-row"><div><span class="project-number">03 — موقع شخصي</span><h3>موقع معرض أعمال شخصي</h3></div><span class="project-arrow" aria-hidden="true">↗</span></div>
+                <p>تصور توضيحي لموقع شخصي يعرض المهارات والمشاريع التدريبية وطرق التواصل.</p>
+                <div class="project-bottom"><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://example.com/your-portfolio-demo" target="_blank" rel="noreferrer">معاينة ↗</a><a href="https://github.com/your-username/your-portfolio" target="_blank" rel="noreferrer">الكود المصدري ↗</a></div></div>
+              </div>
+            </article>
+          </div>
+          <p class="project-disclaimer"><span aria-hidden="true">ⓘ</span> هذه أمثلة توضيحية وليست ادعاءً بإنجاز مشاريع أو نشرها. استبدلها بأعمالك وروابطك عند توفرها.</p>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-glow" aria-hidden="true"></div>
+        <div class="container contact-layout">
+          <div class="contact-copy reveal">
+            <p class="eyebrow"><span class="section-number">04</span> هل لديك فكرة جميلة؟</p>
+            <h2 id="contact-title">لنبنِ معًا<br><span class="gradient-text">شيئًا رائعًا.</span></h2>
+            <p>يسعدني التواصل بشأن فرص المبتدئين أو التعاون أو كل ما يتعلق بتطوير الواجهات الأمامية. إذا كانت لديك فكرة، يسعدني أن أسمع منك.</p>
+            <a class="button button-primary contact-cta" href="mailto:your.email@example.com">أرسل لي رسالة <span aria-hidden="true">↖</span></a>
+          </div>
+          <div class="contact-details reveal">
+            <a class="contact-item" href="mailto:your.email@example.com">
+              <span class="contact-icon" aria-hidden="true">✉</span><span><small>راسلني عبر البريد</small><strong>your.email@example.com</strong></span><span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="contact-item" href="https://github.com/your-username" target="_blank" rel="noreferrer">
+              <span class="contact-icon github-icon" aria-hidden="true">GH</span><span><small>تابعني على GitHub</small><strong>github.com/your-username</strong></span><span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="contact-item" href="https://www.linkedin.com/in/your-username" target="_blank" rel="noreferrer">
+              <span class="contact-icon linkedin-icon" aria-hidden="true">in</span><span><small>تواصل معي على LinkedIn</small><strong>linkedin.com/in/your-username</strong></span><span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+            <p class="placeholder-note">استبدل البريد وروابط الحسابات ببياناتك قبل نشر الموقع.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="footer-name" href="#home">FARRAG MAHMOUD<span>_</span></a>
+        <p>صُنع بعناية، وبُني بشغف للتعلّم.<br><span>© <span id="copyright-year"></span> Farrag Mahmoud</span></p>
+        <div class="footer-socials"><a href="https://github.com/your-username" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noreferrer">LinkedIn ↗</a><a class="back-top" href="#home" aria-label="العودة إلى الأعلى">↑</a></div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
